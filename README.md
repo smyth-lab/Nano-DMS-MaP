@@ -10,7 +10,7 @@ Briefly, the pipeline has the following steps:
 2. Read-to-isoform assignment with Isoquant, followed by sorting. 
 3. Per isoform alignment with LAST. 
 
-4.RNA-Framework analysis: rf-count with optimized settings on LAST-aligned BAM files. 
+4. RNA-Framework analysis: rf-count with optimized settings on LAST-aligned BAM files. 
   
 5. rf-norm to quantify reactivity rates (we recommend having a non-modified control to perform Siegfried et al. normalization)
   
