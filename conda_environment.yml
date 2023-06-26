@@ -279,6 +279,3 @@ dependencies:
     - kaleido==0.2.1
     - ont-fast5-api==4.1.1
     - progressbar33==2.4
-variables:
-  PYTHONPATH: ''
-prefix: /home/pbohn/miniconda3/envs/nanodms
