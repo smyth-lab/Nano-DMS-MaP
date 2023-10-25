@@ -1,6 +1,6 @@
 # Nano-DMS-MaP
 
-Code to perform Nanopore-DMS-MaP (mutational profiling) RNA structural probing analysis (processing and visualization). 
+Code to analyze and visualize RNA structural probing by Nanopore DMS mutational profiling data. 
 
 Note: The code accompanying the Nature Methods Nano-DMS-MaP paper is located at this branch: https://github.com/smyth-lab/Nano-DMS-MaP/tree/NMethods-10.1038/s41592-023-01862-7 
 
