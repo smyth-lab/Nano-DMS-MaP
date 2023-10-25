@@ -13,8 +13,8 @@ _(numbers in square brackets indicate in which jupyter notebook the process is d
 3. [1] Per isoform alignment with LAST.
 4. [1] RNA-Framework analysis 
     - rf-count with optimized settings on LAST-aligned BAM files. 
-    - rf-norm to quantify reactivity rates (we recommend having a non-modified control to perform Siegfried et al. normalization)
-    - rf-correlate and rf-combine to evaluate the reproducability of reactivity (>0.9 expected) and calculate the mean reactivity of repplicates.
+    - rf-norm to quantify reactivity rates (we recommend having a non-modified control to evaluate DMS-induced mutation rates and for normalization)
+    - rf-correlate and rf-combine to evaluate the reproducability of reactivity (>0.9 expected) and calculate the mean reactivity of replicates.
 5. [3] Plotting DMS reactivities per sample and isoforms and generating varna files of known or predicted structures colored by DMS reactivities. 
 6. [3] Performing de novo RNA structure prediction using EternaFold (or rf-fold)
     
