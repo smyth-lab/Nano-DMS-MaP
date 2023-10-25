@@ -8,7 +8,7 @@ In this repository we provide both the code to process samples, as well as for v
 
 Briefly, the pipeline has the following steps:
 
-    Basecalling (and demultiplexing) of fast5 files from native barcoded SQK-NBD112 or SQK-NBD114 (Q20+ kits) runs with guppy.
+    Basecalling (and demultiplexing) of fast5 files from native barcoded SQK-NBD112 or SQK-NBD114 (Q20+ kits) runs with guppy (dorado may be used alternatively).
     Read-to-isoform assignment with Isoquant, followed by sorting.
     Per isoform alignment with LAST.
     RNA-Framework analysis 
