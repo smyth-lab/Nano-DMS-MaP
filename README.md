@@ -54,7 +54,7 @@ cd tools/EternaFold/src
 make multi
 cd ../../../
 ```
-7. Download the most current version of [Varna](https://varna.lisn.upsaclay.fr/) (needs to be located in the working directory to function).
+7. Download the most current version of [VARNA](https://varna.lisn.upsaclay.fr/) (needs to be located in the working directory to function).
 ```
 wget https://varna.lisn.upsaclay.fr/bin/VARNAv3-93.jar
 ```
