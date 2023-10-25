@@ -15,17 +15,14 @@ Briefly, the pipeline has the following steps:
       rf-count with optimized settings on LAST-aligned BAM files. 
       rf-norm to quantify reactivity rates (we recommend having a non-modified control to perform Siegfried et al. normalization)
       rf-correlate and rf-combine to evaluate the reproducability of reactivity (>0.9 expected) and calculate the mean reactivity of repplicates.
-    
-    Option A: Evaluating the agreement with published secondary structures by calculating Receiver-Operator Curves
-    Option B: Performing de novo RNA structure prediction using EternaFold (or rf-fold)
+    Plotting DMS reactivities per sample and isoforms 
+    Performing de novo RNA structure prediction using EternaFold (or rf-fold)
 
 Additional workflows in this repository include:
 
     Generating a custom gtf file for isoquant to take into account primer binding sites
     Mutation profile analysis of BAM files using perbase
-    Analyzing the frequency of mutations per read from RNA-Framework mm files
     Generating .varna files of known or predicted structures colored by reactivities
-
 
 # Installation instructions
 
