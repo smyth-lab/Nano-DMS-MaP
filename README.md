@@ -1,28 +1,28 @@
 # Nano-DMS-MaP
 
-Code to perform Nanopore-DMS-MaP (mutational profiling) RNA structural probing analysis.
+Code to perform Nanopore-DMS-MaP (mutational profiling) RNA structural probing analysis (processing and visualization). 
 
 Note: The code accompanying the Nature Methods Nano-DMS-MaP paper is located at this branch: https://github.com/smyth-lab/Nano-DMS-MaP/tree/NMethods-10.1038/s41592-023-01862-7 
 
-In this repository we provide both the code to process samples, as well as for visualization.
+## Core Workflow 
 
-Briefly, the pipeline has the following steps:
+_(numbers in square brackets indicate in which jupyter notebook the process is documented)_
 
-    Basecalling (and demultiplexing) of fast5 files from native barcoded SQK-NBD112 or SQK-NBD114 (Q20+ kits) runs with guppy (dorado may be used alternatively).
-    Read-to-isoform assignment with Isoquant, followed by sorting.
-    Per isoform alignment with LAST.
-    RNA-Framework analysis 
-      rf-count with optimized settings on LAST-aligned BAM files. 
-      rf-norm to quantify reactivity rates (we recommend having a non-modified control to perform Siegfried et al. normalization)
-      rf-correlate and rf-combine to evaluate the reproducability of reactivity (>0.9 expected) and calculate the mean reactivity of repplicates.
-    Plotting DMS reactivities per sample and isoforms 
-    Performing de novo RNA structure prediction using EternaFold (or rf-fold)
-
-Additional workflows in this repository include:
-
-    Generating a custom gtf file for isoquant to take into account primer binding sites
-    Mutation profile analysis of BAM files using perbase
-    Generating .varna files of known or predicted structures colored by reactivities
+1. [1] Basecalling (and demultiplexing) of fast5 files from native barcoded SQK-NBD112 or SQK-NBD114 (Q20+ kits) runs with guppy (dorado may be used alternatively).
+2. [1] Read-to-isoform assignment with Isoquant, followed by sorting.
+3. [1] Per isoform alignment with LAST.
+4. [1] RNA-Framework analysis 
+    - rf-count with optimized settings on LAST-aligned BAM files. 
+    - rf-norm to quantify reactivity rates (we recommend having a non-modified control to perform Siegfried et al. normalization)
+    - rf-correlate and rf-combine to evaluate the reproducability of reactivity (>0.9 expected) and calculate the mean reactivity of repplicates.
+5. [3] Plotting DMS reactivities per sample and isoforms and generating varna files of known or predicted structures colored by DMS reactivities. 
+6. [3] Performing de novo RNA structure prediction using EternaFold (or rf-fold)
+    
+## Optional (QC) steps
+- [0] Generating a custom gtf file for isoquant to take into account primer binding sites
+- [2] Visualization of Isoquant's isoform assignment
+- [3] Mutation profile analysis of BAM alignment files using perbase
+- [5] Subsampling to evaluate whether resequencing is worthwhile
 
 # Installation instructions
 
