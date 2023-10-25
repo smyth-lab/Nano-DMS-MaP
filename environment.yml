@@ -1,0 +1,23 @@
+name: Nano-DMS-MaP
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - pandas
+  - numpy
+  - plotly
+  - python-kaleido
+  - samtools
+  - perbase
+  - sambamba
+  - scikit-learn
+  - biopython
+  - isoquant
+  - last
+  - openpyxl
+
+variables:
+  PYTHONPATH: ''

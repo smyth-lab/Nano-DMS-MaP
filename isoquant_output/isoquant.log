@@ -1,0 +1,3 @@
+Command line: /home/pbohn/miniconda3/envs/Nano-DMS-MaP/bin/isoquant.py
+2023-10-25 15:01:50,566 - INFO - Running IsoQuant version 3.3.1
+2023-10-25 15:01:50,567 - ERROR - Reference genome was not provided
