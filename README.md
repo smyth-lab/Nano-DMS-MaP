@@ -27,3 +27,46 @@ Additional workflows in this repository include:
     Generating .varna files of known or predicted structures colored by reactivities
 
 
+# Installation instructions
+
+Prerequisites: 
+- Linux system
+- Ana-/Miniconda: https://docs.conda.io/projects/miniconda/en/latest/ 
+- Java (for Varna)
+
+  
+1. Clone the github repository into the current location. This will automatically clone additional tools available on GitHub, i.e. [RNAFramework](https://rnaframework-docs.readthedocs.io/en/latest/) and [EternaFold](https://eternafold.eternagame.org/) (into the tools folder)
+```
+git clone https://github.com/smyth-lab/Nano-DMS-MaP
+```
+2. Move into the Nano-DMS-MaP folder
+```
+cd Nano-DMS-MaP
+```
+3. Create a conda environment that contains the majority of tools required for analysis. This may take a while ...
+```
+conda env create -f environment.yml
+```
+4. Activate the conda environment
+```
+conda activate Nano-DMS-MaP
+```
+5. Compile the EternaFold binary
+```
+cd tools/EternaFold/src
+make multi
+cd ../../../
+```
+7. Download the most current version of [Varna](https://varna.lisn.upsaclay.fr/) (needs to be located in the working directory to function).
+```
+wget https://varna.lisn.upsaclay.fr/bin/VARNAv3-93.jar
+```
+8. Start the jupyter lab server. If running on a cluster connected via ssh, add the no-browser and port options. 
+```
+jupyter lab (--no-browser --port=XXXX)
+```
+If launching jupyter lab on a cluster, run the following command on your local computer to create an SSH tunnel. 
+```
+(ssh -N -L XXXX:localhost:XXXX user@server)
+```
+10. Start analysis in jupypter lab (either opened automatically when launched on local machine, or open by copying the URL shown after the `jupyter lab` command. 
