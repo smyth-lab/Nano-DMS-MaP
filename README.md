@@ -15,8 +15,8 @@ _(numbers in square brackets indicate in which jupyter notebook the process is d
     - rf-count with optimized settings on LAST-aligned BAM files. 
     - rf-norm to quantify reactivity rates (we recommend having a non-modified control to evaluate DMS-induced mutation rates and for normalization)
     - rf-correlate and rf-combine to evaluate the reproducability of reactivity (>0.9 expected) and calculate the mean reactivity of replicates.
-5. [3] Plotting DMS reactivities per sample and isoforms and generating varna files of known or predicted structures colored by DMS reactivities. 
-6. [3] Performing de novo RNA structure prediction using [EternaFold](https://github.com/eternagame/EternaFold) (or rf-fold)
+5. [4] Plotting DMS reactivities per sample and isoforms and generating varna files of known or predicted structures colored by DMS reactivities. 
+6. [4] Performing de novo RNA structure prediction using [EternaFold](https://github.com/eternagame/EternaFold) (or rf-fold)
     
 ## Optional (QC) steps
 - [0] Generating a custom gtf file for Isoquant to take into account primer binding sites
