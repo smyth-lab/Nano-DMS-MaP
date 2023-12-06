@@ -1,7 +1,4 @@
-[submodule "tools/fquick"]
-	path = tools/fquick
-	url = https://github.com/smyth-lab/fquick
-[submodule "tools/python_functions"]
+[submodule "tools/Nano-DMS-MaP-functions"]
 	path = tools/python_functions
 	url = https://github.com/smyth-lab/Nano-DMS-MaP-functions
 [submodule "tools/RNAFramework"]

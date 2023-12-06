@@ -8,7 +8,7 @@ Note: The code accompanying the Nature Methods Nano-DMS-MaP paper is located at 
 
 _(numbers in square brackets indicate in which jupyter notebook the process is documented)_
 
-1. [1] Basecalling (and demultiplexing) of fast5 files from native ligation barcoded SQK-NBD112 or SQK-NBD114 (Q20+ kits) runs of specific amplicons.
+1. [1] Basecalling (and demultiplexing) of fast5 files from native ligation barcoded SQK-NBD114 (Q20+ kits) runs of specific amplicons.
 2. [1] Read-to-isoform assignment with [Isoquant](https://github.com/ablab/IsoQuant), followed by sorting.
 3. [1] Per isoform alignment with [LAST](https://gitlab.com/mcfrith/last).
 4. [1] [RNA Framework](https://rnaframework-docs.readthedocs.io/en/latest/) analysis 
