@@ -1,9 +1,9 @@
-[submodule "tools/Nano-DMS-MaP-functions"]
-	path = tools/python_functions
-	url = https://github.com/smyth-lab/Nano-DMS-MaP-functions
 [submodule "tools/RNAFramework"]
 	path = tools/RNAFramework
 	url = https://github.com/dincarnato/RNAFramework
 [submodule "tools/EternaFold"]
 	path = tools/EternaFold
 	url = https://github.com/eternagame/EternaFold
+[submodule "tools/Nano-DMS-MaP-functions"]
+	path = tools/Nano-DMS-MaP-functions
+	url = https://github.com/smyth-lab/Nano-DMS-MaP-functions
