@@ -34,7 +34,7 @@ Prerequisites:
   
 1. Clone the github repository into the current location. This will automatically clone additional tools available on GitHub, i.e. [RNAFramework](https://rnaframework-docs.readthedocs.io/en/latest/) and [EternaFold](https://eternafold.eternagame.org/) (into the tools folder)
 ```
-git clone https://github.com/smyth-lab/Nano-DMS-MaP
+git clone --recursive https://github.com/smyth-lab/Nano-DMS-MaP
 ```
 2. Move into the Nano-DMS-MaP folder
 ```
